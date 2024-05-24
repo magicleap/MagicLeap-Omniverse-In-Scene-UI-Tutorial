@@ -1,6 +1,12 @@
-# *Omniverse Kit* Extensions Project Template
+# MagicLeap Omniverse In Scene UI Tutorial Extension
 
-This project is a template for developing extensions for *Omniverse Kit*.
+Full code sample from the tutorial available on the MagicLeap Developer Portal here-
+https://developer-docs.magicleap.cloud/docs/guides/remote-rendering/Applications/Omniverse/in-scene-ui-tutorial/
+
+based on the *Omniverse Kit* Extensions Project Template-
+https://github.com/NVIDIA-Omniverse/kit-extension-template
+
+Getting started & plugin installation documentation from the template project-
 
 # Getting Started
 
@@ -77,18 +83,6 @@ You should see a menu in the top left. From here you can enable more extensions 
 
 * In the *Extensions* window, press *Bread* button near the search bar and select *Show Extension Graph*. It will show how the current *App* comes to be: all extensions and dependencies.
 * Extensions system documentation: http://omniverse-docs.s3-website-us-east-1.amazonaws.com/kit-sdk/104.0/docs/guide/extensions.html
-
-# Running Tests
-
-To run tests we run a new process where only the tested extension (and it's dependencies) is enabled. Like in example above + testing system (`omni.kit.test` extension). There are 2 ways to run extension tests:
-
-1. Run: `app\kit\test_ext.bat omni.hello.world  --ext-folder exts`
-
-That will run a test process with all tests and exit. For development mode pass `--dev`: that will open test selection window. As everywhere, hotreload also works in this mode, give it a try by changing some code!
-
-2. Alternatively, in *Extension Manager* (*Window &rarr; Extensions*) find your extension, click on *TESTS* tab, click *Run Test*
-
-For more information about testing refer to: [testing doc](http://omniverse-docs.s3-website-us-east-1.amazonaws.com/kit-sdk/104.0/docs/guide/ext_testing.html).
 
 
 # Linking with an *Omniverse* app
